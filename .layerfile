@@ -1,0 +1,7 @@
+version: 0.1
+
+pipeline:
+  install:
+    - npm install
+  run:
+    - node index.js
